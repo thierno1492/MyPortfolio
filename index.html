@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="assets/logo.ico" type="image/x-icon" />
+
+    <title>Portfolio Thierno Diallo</title>
+</head>
+
+<body>
+    <!-- scroll to top button -->
+    <div class="scroll">
+        <a href="#home"><i class="fas fa-arrow-circle-up"></i></a>
+    </div>
+    <!-- navigation menu -->
+    <nav>
+        <div class="navbar">
+            <div class="navbar__logo"><a href="#home">Portfolio</a></div>
+            <ul class="navbar__menu">
+                <li class="navbar__menu-li"><a href="#home">Inicio</a></li>
+                <li class="navbar__menu-li"><a href="#about">Acerca de Mí</a></li>
+                <li class="navbar__menu-li">
+                    <a href="#skills">Tecnologías</a>
+                </li>
+                <li class="navbar__menu-li">
+                    <a href="#works">Mis trabajos</a>
+                </li>
+                <li class="navbar__menu-li">
+                    <a href="#contact">Contacto</a>
+                </li>
+                <div class="navbar__btn-cancel">
+                    <i class="fas fa-times"></i>
+                </div>
+            </ul>
+            <div class="navbar__icons">
+                <a href="https://github.com/thierno1492"><i class="fab fa-github"></i></a>
+                <a href="https://thierno-portfolio-34.netlify.app/"><i class="fab">other portfolio</i></a>
+                <a href="https://www.linkedin.com/in/thierno-diallo-a22840174"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="navbar__btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <section class="home" id="home">
+        <div class="home__content">
+            <div class="text">
+                <div class="text__one">Hola,</div>
+                <div class="text__two">Soy Thierno Sadialiou</div>
+                <div class="text__three">Jr Full Stack Developer</div>
+            </div>
+            <div class="home__button">
+                <a href="https://www.dropbox.com/s/gvd091o89rh3k54/thierno-cv.pdf?dl=0"
+                     class="home__button-btn">Descarga mi CV</a>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="about__content">
+            <div class="about__title"><span>Acerca de mí</span></div>
+            <div class="about__details">
+                <div class="about__details-right">
+                    <img src="assets/thierno-2.jpg" alt="imagen Thierno" />
+                </div>
+                <div class="about__details-left">
+                    <div class="topic">
+                        Me gusta desarrollar, diseñar y seguir aprendiendo
+                    </div>
+                    <p>
+                        Mi nombre es THIERNO, y en septiembre terminé el bootcam full-stack En mi caso después de terminar el bootcamp tengo un gran aprendizaje en php y laravel framework. También tengo un entendimiento de TDD durante los proyectos en los que siempre hemos estado trabajando ágilmente También hemos aprendido OOP, Node.js, Vue.js y docker. De lo que se refiere en mi experiencia en front-end antes de mi formación en full-stack hice un bootcamp  enfocada en el desarrollo front-end que me permitió tener excelentes conocimientos en html, javascript y css.Ahora estoy haciendo un entrenamiento enfocado en Angular y React.He estado creando una aplicación con vue, javascript y laravel que me ha dado un conocimiento muy profundo sobre javascript y cómo usar back end con front end. En este momento me interesaría que alguien me diera la oportunidad de desarrollar mi carrera.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="skills__content">
+            <div class="skills__title"><span>Tecnologías</span></div>
+            <div class="skills__container">
+                <div class="skills__cards">
+                    <div class="skills__cards-card">HTML</div>
+                    <div class="skills__cards-card">CSS</div>
+                    <div class="skills__cards-card">Bootstrap</div>
+                    <div class="skills__cards-card">JavaScript</div>
+                    <div class="skills__cards-card">Vue</div>
+                    <div class="skills__cards-card">React</div>
+                    <div class="skills__cards-card">Angular</div>
+                    <div class="skills__cards-card">Prestashop</div>
+                    <div class="skills__cards-card">Laravel</div>
+                    <div class="skills__cards-card">MySql</div>
+                    <div class="skills__cards-card">PHP</div>
+                    <div class="skills__cards-card">Figma</div>
+                    <div class="skills__cards-card">Git</div>
+                    <div class="skills__cards-card">Trello</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION WORKS -->
+    <section class="works" id="works">
+        <div class="max-widht">
+            <div class="works__title"><span>Mis trabajos</span></div>
+            <div class="carousel">
+                <!-- owl-carousel -->
+                <div class="carousel__card">
+                    <div class="carousel__box">
+                        <a href="http://moods-nous-cims.herokuapp.com/"> <img src="assets/mood.png" alt="moods" /></a>
+                         <div class="box__text">
+                            <p class="title">Proyecto Moods</p>
+                            <p>Laravel|PHP|Mysql|CSS</p>
+                        </div>
+                        <a href="https://github.com/Fataaa-mood/moods-app">Repo Github</a>
+                    </div>
+                </div>
+                <div class="carousel__card">
+                    <div class="carousel__box">
+                        <a href="https://proyecto-bootstrap-animal-crossing.netlify.app/"><img src="assets/doggy.png"
+                                alt="doogyf" /></a>
+                        <div class="box__text">
+                            <p class="title">Proyecto DoogyF</p>
+                            <p>HTML|Api|Boostrap|Vue|laravel|mysql</p>
+                        </div>
+                        <a href="https://github.com/MuyDiversos/Vue-Dhttps://github.com/MuyDiversos/Vue-DoggyFoggyF">Repo
+                            Github
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel__card">
+                    <div class="carousel__box">
+                        <a href="https://thierno-cryrpto-exchange.netlify.app/"><img src="assets/crypto.png"
+                                alt="crypto moneda" /></a>
+                        <div class="box__text">
+                            <p class="title">Web echange</p>
+                            <p>HTML|JavaScript|vue|api</p>
+                        </div>
+                        <a href="https://github.com/thierno1492/Web-echange">Repo Github</a>
+                    </div>
+                </div>
+                <div class="carousel__card">
+                    <div class="carousel__box">
+                        <a href="#"><img src="assets/teachmaner.png" alt="teachmaner" /></a>
+                        <div class="box__text">
+                            <p class="title">Proyecto Teachmanager</p>
+                            <p>HTML|Tailwinds|Laravel|Figma.</p>
+                        </div>
+                        <a href="https://github.com/Broken-Lore/techManager">Repo Github</a>
+                    </div>
+                </div>
+                <div class="carousel__card">
+                    <div class="carousel__box">
+                        <a href="https://f5-appointment-app.herokuapp.com/"> <img src="assets/consultorio.png"
+                                alt="consulting f5" /></a>
+
+                        <div class="box__text">
+                            <p class="title">Proyecto Consulting F5 </p>
+                            <p>HTML|CSS|Bootstrap|PHP|MySQL,</p>
+                            <a class="box__text-a" href="https://github.com/Broken-Lore/ConsultingF5">Repo Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel__card">
+                    <div class="carousel__box">
+                        <a href="https://armun4.github.io/Wheel-Of-Doom/"> <img src="assets/wheel.png"
+                                alt="wheel of dom" /></a>
+                        <div class="box__text">
+                            <p class="title">Proyecto wheel of Dom</p>
+                            <p>Html|CSS|JavaScript|Figma|Trello</p>
+                        </div>
+                        <a href="https://github.com/Armun4/Wheel-Of-Doom">Repo Github</a>
+                    </div>
+                </div>
+                <div class="carousel__card">
+                    <div class="carousel__box">
+                        <img src="assets/flores.png" alt="casa de flores" />
+                        <div class="box__text">
+                            <p class="title">Proyecto Casa de flores</p>
+                            <p> HTML|CSS|Javascript|Figma|Trello</p>
+                        </div>
+                        <a href="https://github.com/thierno1492/Floristeria">Repo Github</a>
+                    </div>
+                </div>
+                <div class="carousel__card">
+                    <div class="carousel__box">
+                        <img src="assets/hit.png" alt="exercise hubDeJuegos" />
+                        <div class="box__text">
+                            <p class="title">Proyecto
+                                Hit the Doombom</p>
+                            <p>HTML|CSS|FIGMA|TRELLO</p>
+                        </div>
+                        <a href="https://github.com/vchacin/Hit-the-Domboom">Repo Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT ME -->
+    <div class="contact" id="contact">
+        <div class="contact__title"><span>Contacto</span></div>
+        <div class="contact__text">
+            <div class="contact__topic">
+                ¿Tienes un hueco para mí?.... ¡Contáctame!
+                <p>¡Quiero aprender y seguir creciendo como programador!</p>
+            </div>
+            <div class="contact__topic-text">
+                <p>sadialioukadi@gmail.com</p>
+                <p>623246415</p>
+                <div class="contact__topic-a">
+                    <a href="https://github.com/thierno1492"><i class="fab fa-github"></i></a>
+                    <a href="https://thierno-portfolio-34.netlify.app/"><i class="fab ">other portfolio</i></a>
+                    <a href="https://www.linkedin.com/in/thierno-diallo-a22840174"><i
+                            class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="footer">
+        <p>Creado por © ThiernoCL Design</p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
