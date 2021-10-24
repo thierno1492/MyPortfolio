@@ -1,6 +1,6 @@
 
 
 # Portfolio THierno
-### technolia usado
+### tech usado
 ### HTML CSS JAVACRIPT BOOSTRAP
-## LIen demo app [click me](http://http://127.0.0.1:5500/index.html "click me")
+## LIen demo app [click me](https://portfolio-thierno-224.netlify.app/ "click me")
