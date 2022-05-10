@@ -63,10 +63,9 @@ nav.sticky{
     justify-content: space-between;
 }
 
-.navbar__logo a{
-    font-size: 40px;
-    font-weight: 500;
-    color: #253960;
+.navbar__logo a img{
+   width: 40%;
+ 
 }
 
 nav.sticky .navbar__logo a{
@@ -81,7 +80,8 @@ nav.sticky .navbar__logo a{
     margin: 0 8px;
     font-size: 18px;
     font-size: 500;
-    color: #02182c;
+    color: white;
+    background-color:transparent;
     font-weight: bold;
     transition: all 0.3s ease;
 }
@@ -101,7 +101,7 @@ nav.sticky .navbar__menu-li a:hover{
 .navbar__icons a{
     font-size: 18px;
     margin: 0 6px;
-    color:#253960;
+    color:#dee2e9;
 }
 
 nav.sticky .navbar__icons a{
