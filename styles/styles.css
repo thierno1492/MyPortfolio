@@ -19,6 +19,9 @@
     font-size: 18px;
     border-radius: 6px;
 }
+ul li{
+    color:white;
+}
 
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar{
