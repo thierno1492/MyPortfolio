@@ -19,7 +19,7 @@ export const educationData = [
         institution: 'Universite General Lansana Conte, Conakry Guinea',
         course: 'Relaciones Internacionales',
         startYear: '2015',
-        endYear: 'no terinado'
+        endYear: 'no terminado'
     },
 
    
