@@ -13,7 +13,7 @@ export const achievementData = {
         {
             id : 2,
             title : 'Salesforce Certified Platform Developer I',
-            details : 'tienen los conocimientos para desarrollar implementar lógica de negocio personalizada e interfaces personalizadas empleando las funciones programáticas de Lightning Platform. Saben cuándo utilizar métodos declarativos frente a los programáticos, y pueden ampliar L Pla empleando Apex y Vforce.',
+            details : 'tienen los conocimientos para desarrollar implementar lógica de negocio personalizada e interfaces personalizadas empleando las funciones programáticas de Lightning Platform. Saben cuándo utilizar métodos declarativos frente a los programáticos.',
             date : 'mayo de 2022 - Presente',
             field : 'dev',
             image : 'https://blog.facialix.com/wp-content/uploads/2022/07/4792472_3c72.jpg'

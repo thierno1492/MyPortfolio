@@ -3,6 +3,7 @@ export const socialsData = {
     facebook: 'https://www.facebook.com/sadjaliou.djallo/',
     linkedIn: 'https://www.linkedin.com/in/thierno-diallo-a22840174/',
     instagram: 'https://www.instagram.com/thierno.diallo1492/',
+    trailhead:'https://trailblazer.me/id/tdiallo2',
    //codepen: 'https://codepen.io/',
     twitter: 'https://twitter.com/Thierno52883795',
     // reddit: 'https://www.reddit.com/user/',
