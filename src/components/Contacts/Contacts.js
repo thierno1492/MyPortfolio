@@ -159,16 +159,16 @@ function Contacts() {
             style={{ backgroundColor: theme.secondary }}
         >
             <div className='contacts--container'>
-                <h1 style={{ color: theme.primary }}>Contacts</h1>
+                <h1 style={{ color: theme.primary }}>Contactos</h1>
                 <div className='contacts-body'>
                     <div className='contacts-form'>
                         <form onSubmit={handleContactForm}>
                             <div className='input-container'>
                                 <label htmlFor='Name' className={classes.label}>
-                                Nombre
+                               Nombre
                                 </label>
                                 <input
-                                    placeholder='Thierno Sadialiou Diallo'
+                                    placeholder=' escribe vuestro Nombre'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -184,7 +184,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='thierno1492@gmail.com'
+                                    placeholder=' escribe vuestro Email'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'

@@ -1,9 +1,9 @@
 export const achievementData = {
-    bio : "La educación es el arma más poderosa que puedes usar para cambiar el mundo” -Nelson Mandela-",
+    bio : "”La educación es el arma más poderosa que puedes usar para cambiar el mundo” -Nelson Mandela-",
     achievements : [
         {
             id : 1,
-            title : 'App Builder',
+            title : 'App Platform Builder',
             details : 'Los Constructores de aplicaciones de plataforma certificados tienen las aptitudes y los conocimientos para diseñar, construir e implementar aplicaciones personalizadas empleando las funciones de personalización declarativas de Salesforce Platform.',
             date : 'junio de 2022 - Presente',
             field : 'Auto',
