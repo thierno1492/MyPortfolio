@@ -23,7 +23,7 @@ export const projectsData = [
         projectDesc: 'Una aplicación web de  videojuego estilo Trivial, que busca una solución para combatir la adicción a las pantallas, en los jóvenes de edad escolar',
         tags: ['Laravel', 'PHP', 'CSS ', ],
         code: 'https://github.com/Fataaa-mood',
-        demo: 'https://github.com/thierno1492/Web-echange',
+        //demo: '',
         image: one
     },
     {

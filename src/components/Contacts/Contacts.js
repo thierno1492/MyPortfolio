@@ -165,7 +165,7 @@ function Contacts() {
                         <form onSubmit={handleContactForm}>
                             <div className='input-container'>
                                 <label htmlFor='Name' className={classes.label}>
-                                    Name
+                                Nombre
                                 </label>
                                 <input
                                     placeholder='Thierno Sadialiou Diallo'
@@ -197,7 +197,7 @@ function Contacts() {
                                     htmlFor='Message'
                                     className={classes.label}
                                 >
-                                    Message
+                                    Mensaje
                                 </label>
                                 <textarea
                                     placeholder='Type your message....'

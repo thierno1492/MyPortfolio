@@ -21,14 +21,14 @@ export const testimonialsData = [
         name: 'Luis Montes',
         title: 'Director|Marketing|comunicación Hansgrohe Iberia ',
         text: "Tuve la oportun de mentorizar y supervisar a Thie dnte su prticpº en el el progra RetoFutur, un programa de emprendimiento social dirigido a jóvenes , ",
-        image: girl2
+        image: boy2
     },
     {
         id: 3,
         name: 'Emilio Lezama',
         title: 'Responsable de Talleres - Coder de Factoria f5',
         text: "Desde que le conozco ha tenido la mejor actitud hacia el trabajo y los estudios. Se esfuerza, se atreve, da lo mejor de sí mismo, sabe que cosas le cuestan más y se dedica a mejorar. ",
-        image: girl1
+        image: boy2
     },
   
 ]

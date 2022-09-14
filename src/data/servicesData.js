@@ -15,12 +15,12 @@ export const servicesData = [
     // },
     {
         id: 2,
-        title: 'Website development',
+        title: 'Desarrollo web',
         icon: <Computer /> 
     },
     {
         id: 3,
-        title: 'Web application development',
+        title: 'Desarrollo aplicaciones web',
         icon: <Web />
     },
     // {
@@ -36,7 +36,7 @@ export const servicesData = [
 
     {
         id: 6,
-        title: 'Design Web',
+        title: 'Diseño web',
         icon: <Phone />
     },
    
