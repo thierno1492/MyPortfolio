@@ -168,7 +168,7 @@ function Contacts() {
                                Nombre
                                 </label>
                                 <input
-                                    placeholder=' escribe vuestro Nombre'
+                                    placeholder=' escribe tu Nombre'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -184,7 +184,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder=' escribe vuestro Email'
+                                    placeholder=' escribe tu Email'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
@@ -200,7 +200,7 @@ function Contacts() {
                                     Mensaje
                                 </label>
                                 <textarea
-                                    placeholder='Type your message....'
+                                    placeholder='Escribe tu mensaje....'
                                     value={message}
                                     onChange={(e) => setMessage(e.target.value)}
                                     type='text'

@@ -3,8 +3,8 @@ export const experienceData = [
         id: 1,
         company: 'Capgemini',
         jobtitle: 'Fullstack Developer salesforce',
-        startYear: '2022',
-        endYear: 'actualmente'
+        startYear: 'en-2022',
+        endYear: 'presente'
     },
     {
         id: 2,
