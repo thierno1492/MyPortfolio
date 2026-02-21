@@ -1,8 +1,8 @@
 import React, { useContext, useState } from 'react';
-import { Snackbar, IconButton, SnackbarContent } from '@material-ui/core';
-import CloseIcon from '@material-ui/icons/Close';
+import { Snackbar, IconButton, SnackbarContent } from '@mui/material';
+import CloseIcon from '@mui/icons-material/Close';
 import emailjs from 'emailjs-com'; 
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@mui/styles';
 import {
     FaTwitter,
     FaLinkedinIn,
