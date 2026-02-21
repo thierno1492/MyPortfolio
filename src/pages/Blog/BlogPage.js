@@ -6,7 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { AiOutlineHome } from "react-icons/ai";
 
 import './BlogPage.css'
-import { SingleBlog } from '../../components'
+import { SectionReveal, SingleBlog } from '../../components'
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { blogData } from '../../data/blogData'
 import { headerData } from '../../data/headerData'
@@ -73,13 +73,13 @@ function BlogPage() {
             <Helmet>
                 <title>{headerData.name} | Blog</title>
             </Helmet>
-            <div className="blogPage--header" style={{backgroundColor: theme.primary}}>
+            <SectionReveal><div className="blogPage--header" style={{backgroundColor: theme.primary}}>
                 <Link to="/">
                     <AiOutlineHome className={classes.home}/>
                 </Link>
                 <h1 style={{color: theme.secondary}}>Blogs</h1>
-            </div>
-            <div className="blogPage--container">
+            </div></SectionReveal>
+            <SectionReveal delay={120}><div className="blogPage--container">
                 <div className="blog--search">
                     <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Seach blog..." className={classes.search}/>
                 </div>
@@ -99,7 +99,7 @@ function BlogPage() {
                         ))}
                     </Grid>
                 </div>
-            </div>
+            </div></SectionReveal>
         </div>
     )
 }
