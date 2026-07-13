@@ -1,12 +1,12 @@
 import React, { useContext, useState } from 'react'
 import { Helmet } from 'react-helmet'
-import { Grid } from '@material-ui/core'
+import { Grid } from '@mui/material'
 import { Link } from 'react-router-dom'
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@mui/styles';
 import { AiOutlineHome } from "react-icons/ai";
 
 import './ProjectPage.css'
-import { SingleProject } from '../../components';
+import { SectionReveal, SingleProject } from '../../components';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { projectsData } from '../../data/projectsData'
 import { headerData } from '../../data/headerData'
@@ -72,13 +72,13 @@ function ProjectPage() {
             <Helmet>
                 <title>{headerData.name} | Projects</title>
             </Helmet>
-            <div className="projectPage-header" style={{backgroundColor:theme.primary}}>
+            <SectionReveal><div className="projectPage-header" style={{backgroundColor:theme.primary}}>
                 <Link to="/">
                         <AiOutlineHome className={classes.home}/>
                 </Link>
                 <h1 style={{color: theme.secondary}}>Projects</h1>
-            </div>
-           <div className="projectPage-container">
+            </div></SectionReveal>
+           <SectionReveal delay={120}><div className="projectPage-container">
                <div className="projectPage-search">
                    <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search project..." className={classes.search} />
                </div>
@@ -99,7 +99,7 @@ function ProjectPage() {
                         ))}
                    </Grid>
                </div>
-           </div>    
+           </div></SectionReveal>    
         </div>
     )
 }

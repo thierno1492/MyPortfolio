@@ -3,7 +3,7 @@ import { BiShoppingBag, BiPencil } from "react-icons/bi";
 import { BsCodeSlash, BsClipboardData } from "react-icons/bs";
 import { AiOutlineMail, AiFillAudio } from "react-icons/ai";
 import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper } from "react-icons/fa";
-import { Computer, Phone, Web } from "@material-ui/icons";
+import { Computer, Phone, Web } from "@mui/icons-material";
 
  
 

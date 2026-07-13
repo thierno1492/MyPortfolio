@@ -1,6 +1,109 @@
 :root {
     --primaryFont: 'Poppins', sans-serif;
-    /* --primaryFont: 'Montserrat', sans-serif; */
-    /* --primaryFont: 'Raleway', sans-serif; */
 }
 
+body {
+    background: radial-gradient(circle at top left, #1d1f33, #0d0e16 55%);
+}
+
+.app {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+}
+
+.app::before,
+.app::after {
+    content: '';
+    position: fixed;
+    width: 42vmax;
+    height: 42vmax;
+    filter: blur(120px);
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.25;
+    animation: floatGlow 16s ease-in-out infinite;
+}
+
+.app::before {
+    top: -20vmax;
+    left: -10vmax;
+    background: #7a5cff;
+}
+
+.app::after {
+    right: -18vmax;
+    bottom: -18vmax;
+    background: #0bc5ea;
+    animation-delay: -8s;
+}
+
+.section-reveal {
+    opacity: 0;
+    transform: translateY(38px) scale(0.985);
+    transition: transform 760ms cubic-bezier(.22,.61,.36,1), opacity 760ms ease;
+    will-change: transform, opacity;
+}
+
+.section-reveal--visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+.landing--img,
+.about-img img,
+.contacts--img {
+    filter: drop-shadow(0 16px 36px rgba(0, 0, 0, 0.3));
+    transition: transform 400ms ease;
+}
+
+.landing--img:hover,
+.about-img img:hover,
+.contacts--img:hover {
+    transform: translateY(-6px) scale(1.01);
+}
+
+.skill--box,
+.singleProject,
+.single-service,
+.singleBlog,
+.educard,
+.expcard,
+.achievecard-content,
+.testimonials--container {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 360ms ease, box-shadow 360ms ease, border-color 360ms ease;
+}
+
+.skill--box:hover,
+.singleProject:hover,
+.single-service:hover,
+.singleBlog:hover,
+.educard:hover,
+.expcard:hover,
+.achievecard-content:hover,
+.testimonials--container:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.24);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+@keyframes floatGlow {
+    0%,
+    100% { transform: translate(0, 0); }
+    50% { transform: translate(20px, -24px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .section-reveal,
+    .section-reveal--visible,
+    .app::before,
+    .app::after {
+        animation: none;
+        transition: none;
+        transform: none;
+        opacity: 1;
+    }
+}
